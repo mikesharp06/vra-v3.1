@@ -20,3 +20,5 @@ It functions as follows:
    3.13  Removes the cells with the value "Created on:"
    3.14  Autofit height for all rows  
    3.15  Formats and names the output file using valkues in cells A1 and A3.
+
+Please note: You will have to autofit row height within excel.
