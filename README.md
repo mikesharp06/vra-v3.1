@@ -4,7 +4,7 @@ To use, navigate to hempel-ai.com
 It functions as follows:  
 1. Input, raw export for variance report uploaded via server  
 2. Output, finalized export for variance report downloaded directly to computer
-3. Functions within the code
+3. Functions within the code  
    3.1. Sets print titles for rows one through seven  
    3.2  Sets narrow margins (left:0.25, right:0.25, top:0.75, bottom:0.75, header:0.3, footer:0.3)  
    3.3  Sets page width to fit with page columns  
