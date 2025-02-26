@@ -100,6 +100,11 @@ document.getElementById('fileUpload').addEventListener('change', function(event)
                 });
             });
 
+            // Autofit row height for all rows
+            worksheet.eachRow({ includeEmpty: true }, (row) => {
+                row.height = undefined;
+            });
+
             // Get the value of cell A1 and A3 to use as the filename
             let fileNameA1 = worksheet.getCell('A1').value || '';
             let fileNameA3 = worksheet.getCell('A3').value || '';
