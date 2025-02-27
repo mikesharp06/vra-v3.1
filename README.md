@@ -17,11 +17,12 @@ It functions as follows:
    3.10  Sets the width of column J to 40  
    3.11  Center aligns all cells in rows nine and below  
    3.12  Left aligns all cells in column A for rows four and below  
-   3.13  Removes the cells with the value "Created on:"
+   3.13  Removes the cells with the value "Created on:"  
    3.14  Autofit height for all rows  
    3.15  Formats and names the output file using valkues in cells A1 and A3.
 
 Please note: You will have to autofit row height within excel.  
 CTRL + A  
 ALT + H + O + A  
-This will autofit all rows, or feel free to use a shortcut.
+This will autofit all rows, or feel free to use a shortcut.  
+Code will only work with a month ending and a period ending columns.
